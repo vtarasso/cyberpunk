@@ -2,4 +2,4 @@
 
 formatted pictures
 
-next -> footer -> css -> js
+next: footer+ -> css -> js

@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "Archangelsk";
+    src: url("../fonts/Archangelsk.woff2") format("woff2"),
+        url("../fonts/Archangelsk.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.woff2") format("woff2"),
+        url("../fonts/Roboto-Light.woff") format("woff");
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+        url("../fonts/Roboto-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+        url("../fonts/Roboto-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --accent-color: #f8f200;
+    --dark-color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1310px;
+}
+
+.visually-hidden {
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    pointer-events: none;
+    overflow: hidden;
+    outline: transparent;
+    outline-offset: 0;
+}
+
+.corner-block {
+    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+}
+
+/*header*/
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__container {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.social__link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social__link--youtube {
+    background-image: url("../img/social_yt-logo.svg");
+}
+
+.social__link--vk {
+    background-image: url("../img/social_vk-logo.svg");
+}
+
+.social__link--facebook {
+    background-image: url("../img/social_fb-logo.svg");
+}
+
+.social__link--twitter {
+    background-image: url("../img/social_twitter-logo.svg");
+}
+
+.social__link--twitch {
+    background-image: url("../img/social_twitch-logo.svg");
+}
+
+.social__link--instagram {
+    background-image: url("../img/social_inst-logo.svg");
+}
+
+
+/*hero section*/
+.hero {
+    height: 1000px;
+    background-image: url("../img/hero_slider-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.hero-info {
+    padding: 70px;
+    max-width: 624px;
+    background-color: var(--accent-color);
+}
+
+.hero-info__title {
+    margin: 0;
+    margin-bottom: 27px;
+    font-family: "Archangelsk", "Arial", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--dark-color);
+}
+
+
+.hero-info__btn {
+    padding: 23px 48px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: var(--accent-color);
+    background-color: var(--dark-color);
+}

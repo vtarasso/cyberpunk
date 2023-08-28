@@ -1,7 +1,11 @@
 # cyberpank
 
-formatted pictures
+images: compressed -> [optimizilla](https://imagecompressor.com/ru/)
 
-next: footer+ -> css -> js
+html: finished
 
-[Link to the figma layout](https://www.figma.com/file/vnCVeaAqqo7TF2aOhuF3Ki/Cyberpunk?node-id=12%3A230&mode=dev)
+css: header+/hero+/about+ -> game/hp/buy/footer
+
+js: slider+
+
+###[Link to the figma layout](https://www.figma.com/file/vnCVeaAqqo7TF2aOhuF3Ki/Cyberpunk?node-id=12%3A230&mode=dev)

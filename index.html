@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Cyberpank 2077 - promo</title>
   </head>
   <body>
@@ -65,19 +66,21 @@
       <section class="hero">
         <h1 class="visually-hidden">Промо игры Киберпанк 2077</h1>
         <div class="swiper-container hero__slider">
-          <div class="swiper-wrapper">
-            <div
-              class="swiper-slide"
-              style="background-image: url('img/hero_slider-1.jpg')"
-            ></div>
-            <div
-              class="swiper-slide"
-              style="background-image: url('img/hero_slider-2.jpg')"
-            ></div>
-            <div
-              class="swiper-slide"
-              style="background-image: url('img/hero_slider-3.jpg')"
-            ></div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide"
+                style="background-image: url('img/hero_slider-1.jpg')"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url('img/hero_slider-2.jpg')"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url('img/hero_slider-3.jpg')"
+              ></div>
+            </div>
           </div>
         </div>
         <div class="container hero__container">
@@ -215,19 +218,19 @@
             <ul class="hp__list list-reset">
               <li
                 class="hp__item"
-                style="background-image: url('img/palette.svg')"
+                style="background-image: url('img/hp_palette.svg')"
               >
                 Яркие насыщенные цвета
               </li>
               <li
                 class="hp__item"
-                style="background-image: url('img/stars.svg')"
+                style="background-image: url('img/hp_stars.svg')"
               >
                 Кристальная четкость изображения
               </li>
               <li
                 class="hp__item"
-                style="background-image: url('img/moves.svg')"
+                style="background-image: url('img/hp_moves.svg')"
               >
                 Быстрые движения и&nbsp;плавный геймплей
               </li>
@@ -255,21 +258,21 @@
             <ul class="buy__list list-reset">
               <li
                 class="buy__item"
-                style="background-image: url('img/disk.svg')"
+                style="background-image: url('img/buy_disk.svg')"
               >
                 Футляр с&nbsp;игровыми дисками
               </li>
 
               <li
                 class="buy__item"
-                style="background-image: url('img/wysiwyg.svg')"
+                style="background-image: url('img/buy_wysiwyg.svg')"
               >
                 Футляр с&nbsp;кодом для загрузки игры и&nbsp;дисками (pc)
               </li>
 
               <li
                 class="buy__item"
-                style="background-image: url('img/collections.svg')"
+                style="background-image: url('img/buy_collections.svg')"
               >
                 Справочник с&nbsp;информацией об&nbsp;игровом мире
               </li>
@@ -334,8 +337,6 @@
         </small>
       </div>
     </footer>
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="scripts/script.js"></script>
   </body>
 </html>

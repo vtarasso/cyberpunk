@@ -37,6 +37,8 @@
 :root {
     --accent-color: #f8f200;
     --dark-color: #000000;
+    --text-color: #777777;
+    --highlighter-color:#52bedc;
 }
 
 * {
@@ -46,6 +48,19 @@
 body {
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
 }
 
 .list-reset {
@@ -61,13 +76,24 @@ body {
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+.site-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-family: "Archangelsk", "Arial", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--dark-color);
+}
+
+.highlighter {
+    font-weight: 700;
+    color: var(--highlighter-color)
 }
 
 .container {
     margin: 0 auto;
+    margin-bottom: 70px;
     padding: 0 15px;
     max-width: 1310px;
 }
@@ -89,8 +115,10 @@ a {
 }
 
 .corner-block {
-    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+    overflow: hidden;
+    clip-path: polygon(8% 0, 100% 0, 100% 87%, 92% 100%, 0 100%, 0 14%);
 }
+
 
 /*header*/
 .header {
@@ -155,7 +183,8 @@ a {
 /*hero section*/
 .hero {
     position: relative;
-    height: 1000px;
+    margin-bottom: 70px;
+    height: 1001px;
 }
 
 .swiper {
@@ -172,26 +201,12 @@ a {
     height: 100%;
 }
 
-.swiper-pagination {
-    width: 30px;
-    height: 30px;
-}
-
 .hero__slider .swiper-slide {
     width: 100%;
     height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.swiper-button-next, .swiper-rtl .swiper-button-prev{
-    right: 140px !important; 
-    left: auto;
-}
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
-    left: 140px !important; 
-    right: auto;
 }
 
 .hero__container {
@@ -212,20 +227,52 @@ a {
 .hero-info__title {
     margin: 0;
     margin-bottom: 27px;
-    font-family: "Archangelsk", "Arial", sans-serif;
-    font-size: 62px;
-    font-weight: 400;
-    line-height: 1;
-    color: var(--dark-color);
 }
 
-
 .hero-info__btn {
-    padding: 23px 48px;
+    padding: 23.5px 48px;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     text-align: center;
     color: var(--accent-color);
     background-color: var(--dark-color);
+}
+
+/*about section*/
+.about__descr {
+    margin-bottom: 60px;
+    max-width: 952px;
+    font-size: 18px;
+    line-height: 34px;
+    color: var(--text-color);
+}
+
+.about__images {
+    display: flex;
+}
+
+.about__left {
+    margin-right: 32px;
+    width: 460px;
+}
+
+.about__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about__image--mini {
+    clip-path: polygon(11% 0, 100% 0, 100% 73%, 89% 100%, 0 100%, 0 26%);
+}
+
+.about__image--mini:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.about__image--big {
+    width: calc(100% - 460px - 32px);
+    height: 99%;
+    clip-path: polygon(6% 0, 100% 0, 100% 87%, 93% 100%, 0 100%, 0 11%);
 }

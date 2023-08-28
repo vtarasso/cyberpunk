@@ -1,6 +1,11 @@
 # cyberpank
 
-images: compressed -> [optimizilla](https://imagecompressor.com/ru/)
+* used:
+  * Tipograf - [tipograf](https://www.artlebedev.ru/typograf/)
+  * Validator - [validator](https://validator.w3.org/)
+  * Optimizilla - [optimizilla](https://imagecompressor.com/ru/)
+  * PixelPerfect
+  * BEM
 
 html: finished
 

@@ -1,4 +1,4 @@
-# cyberpank
+# cyberpunk
 
 * used:
   * Tipograf - [tipograf](https://www.artlebedev.ru/typograf/)

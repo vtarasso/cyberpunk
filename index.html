@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Cyberpank 2077 - promo</title>
+    <title>Cyberpunk 2077 - promo</title>
   </head>
   <body>
     <header class="header">
       <div class="container header__container">
         <a href="#" class="header__logo">
-          <img src="img/cyberpank.svg" alt="Логотип игры Киберпанк 2077" />
+          <img src="img/cyberpunk.svg" alt="Логотип игры Киберпанк 2077" />
         </a>
         <ul class="social header__social list-reset">
           <li class="social__item">
@@ -86,7 +85,7 @@
         <div class="container hero__container">
           <div class="hero-info corner-block">
             <h2 class="hero-info__title site-title">Доступно на всех платформах</h2>
-            <button class="hero-info__btn">Узнать больше</button>
+            <button class="btn-reset btn hero-info__btn">Узнать больше</button>
           </div>
         </div>
       </section>
@@ -96,8 +95,8 @@
           <h2 class="site-title about__title">
             Найт-Сити изменит тебя навсегда!
           </h2>
-          <p class="about__descr">
-            <span class="highlighter">Cyberpunk 2077</span
+          <p class="about__descr site-descr">
+            <span class="site-descr__highlighted">Cyberpunk 2077</span
             >&nbsp;&mdash; приключенческая ролевая игра, действие которой
             происходит в&nbsp;мегаполисе Найт-Сити, где власть, роскошь
             и&nbsp;модификации тела ценятся выше всего. Ты&nbsp;играешь
@@ -133,14 +132,14 @@
 
       <section class="game">
         <div class="container">
-          <h2 class="site-title game__title">Играй и выигрывай</h2>
-          <p class="game__descr">
-            Играй в&nbsp;<span class="highlighter"
+          <h2 class="site-title game__title">Играй и&nbsp;выигрывай!</h2>
+          <p class="game__descr site-descr">
+            Играй в&nbsp;<span class="site-descr__highlighted"
               >Cyberpunk 2077</span
             >
             и&nbsp;получи возможность выиграть консоль
-            <span class="highlighter">Xbox Series X</span>&nbsp;или
-            <span class="highlighter">Sony PlayStation 5!</span>
+            <span class="site-descr__highlighted">Xbox Series X</span>&nbsp;или
+            <span class="site-descr__highlighted">Sony PlayStation 5!</span>
             Заполни форму ниже и&nbsp;приложи скриншот о&nbsp;покупке игры.
             Итоги розыгрыша будут подведены 1&nbsp;февраля. Удачи! ;)
           </p>
@@ -159,24 +158,17 @@
               <label class="form-label">
                 <input type="file" class="form-label__file" />
                 <span class="form-label__text">Прикрепить скриншот</span>
-                <span class="form-label__images"
-                  >.png&nbsp;/ .jpg&nbsp;/ .pdf</span
-                >
+                <span class="form-label__formats">.png&nbsp;/ .jpg&nbsp;/ .pdf</span>
               </label>
-              <button class="form__btn btn-reset">Отправить</button>
+              <button class="form__btn btn btn-reset">Отправить</button>
               <label class="form__checkbox checkbox">
                 <input type="checkbox" class="checkbox__input" />
-                <span class="checkbox__text"
-                  >Согласен на&nbsp;обработку персональных данных</span
-                >
+                <span class="checkbox__text">Согласен на&nbsp;обработку персональных данных</span>
               </label>
             </form>
-            <img
-              src="img/xbox-ps5.png"
-              alt=""
-              aria-hidden="true"
-              class="game__image"
-            />
+            <picture>
+              <img class="game__image" src="img/xbox-ps5.png" alt="" aria-hidden="true"/>
+            </picture>
           </div>
         </div>
       </section>
@@ -198,7 +190,7 @@
               <span class="hp__separator"></span>
               <a href="#" class="hp__logo">
                 <img
-                  src="img/cyberpank.svg"
+                  src="img/cyberpunk.svg"
                   alt="Логотип игры Киберпанк 2077"
                 />
               </a>
@@ -253,7 +245,7 @@
           <div class="buy__content">
             <h2 class="site-title buy__title">Купить игру Cyberpunk 2077</h2>
 
-            <p class="buy__subtitle highlighter">В&nbsp;комплект входит:</p>
+            <p class="buy__subtitle site-descr__highlighted">В&nbsp;комплект входит:</p>
 
             <ul class="buy__list list-reset">
               <li
@@ -278,7 +270,7 @@
               </li>
             </ul>
 
-            <p class="buy__subtitle highlighter">Выберите платформу:</p>
+            <p class="buy__subtitle site-descr__highlighted">Выберите платформу:</p>
             <ul class="platforms-list list-reset">
               <li class="platforms-list__item">
                 <a href="#" class="platforms-list__link">
@@ -314,7 +306,7 @@
         <div class="container">
           <div class="footer__left">
             <a href="#" class="footer__link">
-              <img src="img/cyberpank.svg" alt="Логотип игры Киберпанк 2077" />
+              <img src="img/cyberpunk.svg" alt="Логотип игры Киберпанк 2077" />
             </a>
             <a href="#" class="footer__link">
               <img
@@ -337,6 +329,8 @@
         </small>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="scripts/script.js"></script>
   </body>
 </html>

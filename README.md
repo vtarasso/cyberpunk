@@ -1,7 +1,16 @@
-# cyberpank
+# cyberpunk
 
-formatted pictures
+* used:
+  * Tipograf - [tipograf](https://www.artlebedev.ru/typograf/)
+  * Validator - [validator](https://validator.w3.org/)
+  * Optimizilla - [optimizilla](https://imagecompressor.com/ru/)
+  * PixelPerfect
+  * BEM
 
-next: footer+ -> css -> js
+html: finished
 
-[Link to the figma layout](https://www.figma.com/file/vnCVeaAqqo7TF2aOhuF3Ki/Cyberpunk?node-id=12%3A230&mode=dev)
+css (pixel-perfect): header+/hero+/about+ -> game/hp/buy/footer
+
+js: slider+
+
+### [Link to the figma layout](https://www.figma.com/file/vnCVeaAqqo7TF2aOhuF3Ki/Cyberpunk?node-id=12%3A230&mode=dev)

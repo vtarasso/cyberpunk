@@ -9,7 +9,7 @@
 
 html: finished
 
-css (pixel-perfect): header+/hero+/about+/game+/hp+/buy+/footer+ -> adaptive(pixel-perfect-1024px): header+/hero+/about+/game+/hp+/buy+ -> /footer
+css (pixel-perfect): header+/hero+/about+/game+/hp+/buy+/footer+ -> adaptive(pixel-perfect-1024px): header+/hero+/about+/game+/hp+/buy+/footer+ -> adaptive(pixel-perfect-768px):header+/hero+/about+/game+/hp+/buy+/footer+ -> adaptive(pixel-perfect-320px):
 
 js: slider+
 

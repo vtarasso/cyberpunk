@@ -481,6 +481,9 @@ p {
 .hp__left {
     margin-right: 32px;
     width: calc(50% - 16px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hp__image {
@@ -657,6 +660,7 @@ p {
     }
 
     .about__image--mini:not(:last-child) {
+        margin-right: 32px;
         margin-bottom: 0;
     }
 
@@ -768,5 +772,120 @@ p {
 
     .buy__list {
         margin-bottom: 67px;
+    }
+
+    .footer__top {
+        padding-top: 13px;
+    }
+}
+
+@media(max-width:882px) {
+    .site-list__item {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+}
+
+@media(max-width:768px) {
+    /* header */
+    .header__container {
+        flex-direction: column;
+    }
+
+    .header__logo {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    /* game */
+    .game__content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .game__image {
+        position: static;
+        margin: 0;
+        transform: none;
+        width: 100%;
+    }
+
+    .game__title {
+        width: 100%;
+    }
+    
+    .game__descr {
+        width: 100%;
+    }
+
+    .game__form {
+        width: 100%;
+    }
+
+    /* hp */
+    .hp__container {
+        flex-direction: column;
+    }
+    .hp__left {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .hp__right {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .hp_logos {
+        justify-content: none  ;
+    }
+
+    /* buy */
+    .buy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buy__picture {
+        width: 100%;
+    }
+
+    .buy__image {
+        position: static;
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .buy__container {
+        display: block;
+    }
+
+    .buy__content {
+        width: 100%;
+    }
+    
+    /* footer */
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__left,
+    .footer__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__link:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .footer__top {
+        padding: 25px 0;
     }
 }

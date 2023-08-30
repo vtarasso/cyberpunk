@@ -49,9 +49,9 @@
         <div class="swiper-container hero__slider">
           <div class="swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide" style="background-image: url('img/hero_slider-1.jpg')"></div>
-              <div class="swiper-slide" style="background-image: url('img/hero_slider-2.jpg')"></div>
-              <div class="swiper-slide" style="background-image: url('img/hero_slider-3.jpg')"></div>
+              <div class="swiper-slide swiper-slide-1"></div>
+              <div class="swiper-slide swiper-slide-2"></div>
+              <div class="swiper-slide swiper-slide-3"></div>
             </div>
           </div>
         </div>
@@ -71,10 +71,10 @@
           <p class="about__descr site-descr">
             <span class="site-descr__highlighted">Cyberpunk 2077</span
             >&nbsp;&mdash; приключенческая ролевая игра, действие которой
-            происходит в&nbsp;мегаполисе Найт-Сити, где власть, роскошь
-            и&nbsp;модификации тела ценятся выше всего. Ты&nbsp;играешь
+            происходит в мегаполисе Найт-Сити, где власть, роскошь
+            и&nbsp;модификации тела ценятся выше всего. Ты играешь
             за&nbsp;V, наёмника в&nbsp;поисках устройства, позволяющего обрести
-            бессмертие. Ты&nbsp;сможешь менять киберимпланты, навыки
+            бессмертие. Ты сможешь менять киберимпланты, навыки
             и&nbsp;стиль игры своего персонажа, исследуя открытый мир, где твои
             поступки влияют на&nbsp;ход сюжета и&nbsp;всё, что тебя окружает.
           </p>
@@ -89,7 +89,10 @@
               </div>
             </div>
             <div class="about__image about__image--big corner-block">
-              <img src="img/about_3.jpg" alt="Изображен город Найт-Сити, ночью">
+              <picture>
+                <source srcset="img/about_3-tablet.jpg" media="(max-width: 1024px)">
+                <img src="img/about_3.jpg" alt="Изображен город Найт-Сити, ночью">
+              </picture>
             </div>
           </div>
         </div>
@@ -97,13 +100,13 @@
 
       <section class="game">
         <div class="container">
-          <h2 class="site-title game__title">Играй и&nbsp;выигрывай!</h2>
+          <h2 class="site-title game__title">Играй и выигрывай!</h2>
           <p class="game__descr site-descr">
             Играй в&nbsp;<span class="site-descr__highlighted">Cyberpunk 2077</span>
             и&nbsp;получи возможность выиграть консоль
             <span class="site-descr__highlighted">Xbox Series X</span>&nbsp;или
             <span class="site-descr__highlighted">Sony PlayStation 5!</span>
-            Заполни форму ниже и&nbsp;приложи скриншот о&nbsp;покупке игры.
+            Заполни форму ниже и&nbsp;приложи скриншот о покупке игры.
             Итоги розыгрыша будут подведены 1&nbsp;февраля. Удачи! ;)
           </p>
           <div class="game__content">
@@ -125,6 +128,8 @@
               </label>
             </form>
             <picture>
+              <source srcset="img/xbox-ps5-mobile.png" media="(max-width: 768px)">
+              <source srcset="img/xbox-ps5-tablet.png" media="(max-width: 1024px)">
               <img class="game__image" src="img/xbox-ps5.png" alt="" aria-hidden="true">
             </picture>
           </div>
@@ -180,6 +185,8 @@
 
       <section class="buy">
         <picture>
+          <source srcset="img/buy_covers-mobile.jpg" media="(max-width: 768px)">
+          <source srcset="img/buy_covers-tablet.jpg" media="(max-width: 1024px)">
           <img class="buy__image" src="img/buy_covers.jpg" alt="Большое количество хаотично разбросанных упаковок из под дисков для Икс-Бокс, Плейстейшн и ПК, на обложках изображена игра Киберпанк" aria-hidden="true">
         </picture>
         <div class="container buy__container">

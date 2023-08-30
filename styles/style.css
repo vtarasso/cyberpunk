@@ -614,6 +614,13 @@ p {
         padding: 0 35px;
     }
 
+    /* header */
+    .header__container {
+        padding-top: 22px;
+        padding-bottom: 20px;
+    }
+
+    /* hero */
     .hero {
         height: 1002px;
     }
@@ -630,11 +637,7 @@ p {
         background-image: url("../img/hero_slider-3tablet.jpg")
     }
 
-    .header__container {
-        padding-top: 22px;
-        padding-bottom: 20px;
-    }
-
+    /* about */
     .about__title {
         max-width: 70%;
         margin-bottom: 27px;
@@ -669,6 +672,7 @@ p {
         width: 100%;
     }
 
+    /* game */
     .game {
         padding-top: 85px;
         padding-bottom: 70px;
@@ -717,5 +721,34 @@ p {
 
     .form-label__formats {
         display: none;
+    }
+
+    /* hp */
+    .hp {
+        padding-bottom: 70px;
+    }
+
+    .hp__left {
+        padding-top: 42px;
+    }
+
+    .hp__image {
+        margin-bottom: 20px;
+    }
+
+    .hp__logos {
+        flex-direction: column;
+    }
+
+    .hp__separator {
+        margin: 23px 0;
+    }
+
+    .hp__title {
+        margin-bottom: 27px;
+    }
+
+    .hp__descr {
+        margin-bottom: 15px;
     }
 }

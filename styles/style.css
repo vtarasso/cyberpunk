@@ -751,4 +751,22 @@ p {
     .hp__descr {
         margin-bottom: 15px;
     }
+    /* buy */
+    .buy__image {
+        width: 32.4%;
+        max-width: 332px;
+    }
+
+    .buy__content {
+        padding-left: 20px;
+        width: calc(100% - 32.4%);
+    }
+
+    .buy__subtitle {
+        margin-bottom: 16px;
+    }
+
+    .buy__list {
+        margin-bottom: 67px;
+    }
 }

@@ -121,11 +121,11 @@
           </p>
           <div class="game__content">
             <form class="game__form form">
-              <input type="text" class="form__input" placeholder="Как тебя зовут?">
-              <input type="email" class="form__input" placeholder="Твой е-mail">
+              <input type="text" class="form__input" placeholder="Как тебя зовут?" required>
+              <input type="email" class="form__input" placeholder="Твой е-mail" required>
 
               <label class="form-label">
-                <input type="file" class="form-label__file">
+                <input type="file" class="form-label__file" required>
                 <span class="form-label__text">Прикрепить скриншот</span>
                 <span class="form-label__formats">.png&nbsp;/ .jpg&nbsp;/ .pdf</span>
               </label>
@@ -133,7 +133,7 @@
               <button class="form__btn btn btn-reset">Отправить</button>
 
               <label class="form__checkbox checkbox">
-                <input type="checkbox" class="checkbox__input">
+                <input type="checkbox" class="checkbox__input" required>
                 <span class="checkbox__text">Согласен на&nbsp;обработку персональных данных</span>
               </label>
             </form>

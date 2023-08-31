@@ -930,6 +930,10 @@ p {
 }
 
 @media(max-width: 320px) {
+    .btn {
+        font-size: 16px;
+    }
+
     .site-descr {
         font-size: 16px; 
         line-height: 2;
@@ -1050,12 +1054,45 @@ p {
     }
 
     .form-label {
-        margin-bottom: 37px;
-        padding: 44px;
+        margin-bottom: 34px;
+        padding: 47px;
+    }
+
+    .form-label__text {
+        font-size: 16px;
     }
 
     .form__btn {
         padding: 20px 51px;
-        font-size: 16px;
     }
+
+    /* hp */
+    .hp__image {
+        margin-bottom: 24px;
+    }
+
+    .hp__logos {
+        margin-bottom: 35px;
+        flex-direction: row;
+    }
+
+    .hp__separator {
+        margin: 0 10px;
+    }
+
+    .site-list__item {
+        font-size: 16px;
+        line-height: 1.2;
+        background-size: 24px 24px;
+    }
+
+    .hp__list {
+        margin-bottom: 41px;
+    }
+
+    .hp__btn {
+        padding: 20px 51px;
+    }
+
+    /* buy */
 }

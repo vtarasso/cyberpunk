@@ -1095,4 +1095,23 @@ p {
     }
 
     /* buy */
+    .buy__content {
+        padding-top: 37px;
+        padding-left: 0;
+        padding-bottom: 67px;
+    }
+
+    .buy__subtitle {
+        margin-bottom: 24px;
+        font-size: 20px;
+    }
+
+    .buy__list {
+        margin-bottom: 36px;
+    }
+
+    .platforms-list {
+        grid-column-gap: 65px;
+        grid-row-gap: 27px;
+    }
 }

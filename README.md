@@ -1,9 +1,9 @@
 # cyberpunk
 
 * used:
-  * Tipograf - [tipograf](https://www.artlebedev.ru/typograf/)
-  * Validator - [validator](https://validator.w3.org/)
-  * Optimizilla - [optimizilla](https://imagecompressor.com/ru/)
+  * Tipograf - [Tipograf](https://www.artlebedev.ru/typograf/)
+  * Validator - [Validator](https://validator.w3.org/)
+  * Optimizilla - [Optimizilla](https://imagecompressor.com/ru/)
   * Adaptive test - [Google test adaptive](https://search.google.com/test/mobile-friendly?hl=ru)
   * BEM - [Generator html tree](https://yoksel.github.io/html-tree/)
   * PixelPerfect

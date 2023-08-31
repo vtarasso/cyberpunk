@@ -1114,4 +1114,34 @@ p {
         grid-column-gap: 65px;
         grid-row-gap: 27px;
     }
+
+    /* footer */
+    .footer__container {
+        padding: 0;
+    }
+    
+    .footer__top {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .mini-logo {
+        width: 58%;
+    }
+
+    .footer__link:not(:last-child) {
+        margin-bottom: 19px;
+    }
+
+    .footer__left {
+        margin-bottom: 23px;
+    }
+
+    .footer__right {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        width: 100%;
+        font-size: 16px;
+        background-color: #e6e6e6;
+    }
 }
